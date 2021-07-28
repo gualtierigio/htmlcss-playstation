@@ -77,10 +77,15 @@ header nav i{
     background-image: url(../img/jumbo-bg.png);
 }
 
+.first_jumbo_box{
+    height: 35vh;
+}
+
 #returnal-logo-text{
     background-image: url(../img/returnal-hero-banner-logo.png);
-    
+    width: 50%;
     height: 20%;
     background-size: contain;
     background-repeat: no-repeat;
+    border: 1px solid red;
 }

@@ -78,14 +78,26 @@ header nav i{
 }
 
 .first_jumbo_box{
-    height: 35vh;
+    height: 45vh;
 }
 
 #returnal-logo-text{
     background-image: url(../img/returnal-hero-banner-logo.png);
-    width: 50%;
     height: 20%;
     background-size: contain;
     background-repeat: no-repeat;
     border: 1px solid red;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    #returnal-logo-text{
+        height: 25%;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    #returnal-logo-text{
+        height: 10%;
+    }
 }

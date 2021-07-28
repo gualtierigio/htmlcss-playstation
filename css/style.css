@@ -4,6 +4,10 @@ body{
 
 /*COMMON RULES*/
 
+[class^="col-"]{
+    border: 1px solid red;
+}
+
 .uppercase{
     text-transform: uppercase;
 }
@@ -20,12 +24,59 @@ body{
 
 .sony-top-logo img{
     height: 100%;
-    width: 5%;
+    width: 70px;
 }
 
 /*NAV_BAR*/
 
-#top-nav-bar{
-    height: 80px;
-    border: 1px solid red;
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#navbarDropdown{
+    color: black;
+}
+
+#lens{
+    width: 20px;
+    margin-left: 20px;
+}
+
+header nav i{
+    margin-left: 10px;
+    font-size: 10px;
+    color: rgb(133, 133, 133);
+}
+
+.dropdown-toggle::after{
+    content: none;
+}
+
+.gio_log-in{
+    border-radius: 30px;
+    border: none;
+    padding: 2px 15px;
+    font-size: 0.8em;
+}
+
+
+/*FIRST JUMBOTRON*/
+
+.jumbotron{
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#first_jumbo{
+    background-image: url(../img/jumbo-bg.png);
+}
+
+.first_jumbo-content{
+    height: 100%;
+}
+
+.no-padding{
+    padding: 0;
 }

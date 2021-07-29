@@ -22,9 +22,14 @@ body{
     border-radius: 20px;
 }
 
-.buy_now{
+.buy-now{
     border-color: #dc3545;
     background-color: #dc3545;
+}
+
+.descover-more{
+    border-color: blue;
+    background-color: blue;
 }
 
 .gio_lightblue-text{
@@ -153,5 +158,22 @@ header nav i{
 
 .play-5{
     width: 100%;
-    padding: 60px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+/*PlayStation 5 accessories*/
+
+.wrap-accessories{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.wrap-accessories img{
+    width: 100%;
+}
+
+.wrap-accessories:hover{
+    color: black;
+    border-bottom: blue;
 }

@@ -22,9 +22,21 @@ body{
     border-radius: 20px;
 }
 
-.buy-now{
+.buy_now{
     border-color: #dc3545;
     background-color: #dc3545;
+}
+
+.gio_lightblue-text{
+    color: rgb(69, 121, 255);
+}
+
+.gio_gray-text{
+    color: rgb(148, 148, 148);
+}
+
+.gio_small-text{
+    font-size: 13px;
 }
 
 /*HEADER*/
@@ -116,6 +128,10 @@ header nav i{
 
 /*CAROUSEL*/
 
+.carousel{
+    margin-bottom: 100px;
+}
+
 .carousel_content{
     width: 100%;
     border-radius: 8px;
@@ -131,4 +147,11 @@ header nav i{
     width: 100%;
     border: 2px solid white;
     border-radius: 8px;
+}
+
+/*PlayStation 5 console*/
+
+.play-5{
+    width: 100%;
+    padding: 60px;
 }

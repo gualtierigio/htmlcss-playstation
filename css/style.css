@@ -28,8 +28,8 @@ body{
 }
 
 .descover-more{
-    border-color: blue;
-    background-color: blue;
+    border-color: rgb(60, 60, 255);
+    background-color: rgb(60, 60, 255);
 }
 
 .gio_lightblue-text{
@@ -192,12 +192,15 @@ header nav i{
     width: 100%;
 }
 
+.wrap-accessories:hover{
+    color: black;
+}
+
 .accessories-underline{
     border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 .accessories-underline:hover{
-    color: black;
     border-bottom: 2px solid rgb(45, 154, 226);
 }
 
@@ -223,6 +226,7 @@ header nav i{
     background-color: rgb(68, 68, 68);
     color: white;
     padding-top: 20px;
+    margin-bottom: 80px;
 }
 
 .nuove-uscite-content{
@@ -232,4 +236,10 @@ header nav i{
 .nuove-uscite-img{
     width: 100%;
     border-radius: 20px;
+}
+
+/*PLAYSTATION 4*/
+
+.ps4-content, .ps4-img{
+    width: 100%;
 }

@@ -222,7 +222,7 @@ header nav i{
 
 /*NUOVE USCITE*/
 
-.nuove-uscite-wrapper{
+#nuove-uscite-wrapper{
     background-color: rgb(68, 68, 68);
     color: white;
     padding-top: 20px;
@@ -242,4 +242,21 @@ header nav i{
 
 .ps4-content, .ps4-img{
     width: 100%;
+}
+
+/*PLAYSTATION PLUS*/
+
+#playstationplus{
+    background-color: rgb(165, 165, 165);
+}
+
+#playstationplus h1{
+    display: inline-block;
+}
+
+.plus-logo{
+    height: 50px;
+    background-image: url(../img/ps-plus-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }

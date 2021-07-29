@@ -96,10 +96,11 @@ header nav i{
 /*FIRST JUMBOTRON*/
 
 .jumbotron{
+    display: flex;
     height: 70vh;
     background-size: cover;
     background-position: center;
-    min-width: 257px;
+    min-width: 337px;
 }
 
 #first_jumbo{
@@ -185,14 +186,17 @@ header nav i{
     width: 100%;
     padding-bottom: 10px;
     color: gray;
-    border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 .wrap-accessories img{
     width: 100%;
 }
 
-.wrap-accessories:hover{
+.accessories-underline{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.accessories-underline:hover{
     color: black;
     border-bottom: 2px solid rgb(45, 154, 226);
 }
@@ -211,4 +215,21 @@ header nav i{
     .it-takes-two{
         height: 30%;
     }
+}
+
+/*NUOVE USCITE*/
+
+.nuove-uscite-wrapper{
+    background-color: rgb(68, 68, 68);
+    color: white;
+    padding-top: 20px;
+}
+
+.nuove-uscite-content{
+    width: 100%;
+}
+
+.nuove-uscite-img{
+    width: 100%;
+    border-radius: 20px;
 }

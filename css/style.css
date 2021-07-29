@@ -134,7 +134,18 @@ header nav i{
 /*JUMBOTRON #2*/
 
 #jumboN2{
-    background-image: url();
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.second_jumbo_box{
+    height: 65vh;
+}
+
+.it-takes-two{
+    background-image: url(../img/it-takes-two-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
 }
 
 /*CAROUSEL*/
@@ -195,5 +206,9 @@ header nav i{
 @media screen and (min-width: 992px) {
     #accessories-5{
         justify-content: space-evenly;
+    }
+
+    .it-takes-two{
+        height: 30%;
     }
 }

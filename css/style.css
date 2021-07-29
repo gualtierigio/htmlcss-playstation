@@ -82,6 +82,7 @@ header nav i{
     height: 70vh;
     background-size: cover;
     background-position: center;
+    min-width: 257px;
 }
 
 #first_jumbo{
@@ -111,4 +112,23 @@ header nav i{
     #returnal-logo-text{
         height: 10%;
     }
+}
+
+/*CAROUSEL*/
+
+.carousel_content{
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+.carousel_content:hover{
+    border-color: rgb(45, 154, 226);
+}
+
+.carousel_content img{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 8px;
 }

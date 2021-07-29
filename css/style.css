@@ -16,6 +16,17 @@ body{
     padding: 0;
 }
 
+.gio_button{
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.buy-now{
+    border-color: #dc3545;
+    background-color: #dc3545;
+}
+
 /*HEADER*/
 
 /*LOGO*/
@@ -75,6 +86,7 @@ header nav i{
 
 #first_jumbo{
     background-image: url(../img/jumbo-bg.png);
+    padding: 20px;
 }
 
 .first_jumbo_box{
@@ -83,15 +95,14 @@ header nav i{
 
 #returnal-logo-text{
     background-image: url(../img/returnal-hero-banner-logo.png);
-    height: 20%;
+    height: 15%;
     background-size: contain;
     background-repeat: no-repeat;
-    border: 1px solid red;
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
     #returnal-logo-text{
-        height: 25%;
+        height: 20%;
     }
 }
 

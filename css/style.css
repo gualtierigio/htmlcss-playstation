@@ -32,6 +32,12 @@ body{
     background-color: rgb(60, 60, 255);
 }
 
+.plus-button{
+    color: rgb(60, 60, 255);
+    border-color: rgba(255, 255, 255, 0.693);
+    background-color: rgba(255, 255, 255, 0.693);
+}
+
 .gio_lightblue-text{
     color: rgb(69, 121, 255);
 }
@@ -254,9 +260,24 @@ header nav i{
     display: inline-block;
 }
 
+.plus-description{
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+
 .plus-logo{
-    height: 50px;
+    height: 80px;
     background-image: url(../img/ps-plus-logo.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.plus-april img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .plus-april{
+        display: none;
+    }
 }

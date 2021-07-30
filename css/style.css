@@ -38,6 +38,12 @@ body{
     background-color: rgba(255, 255, 255, 0.693);
 }
 
+.psnow-button{
+    color: black;
+    border-color: white;
+    background-color:white;
+}
+
 .gio_lightblue-text{
     color: rgb(69, 121, 255);
 }
@@ -257,17 +263,13 @@ header nav i{
     margin-bottom: 80px;
 }
 
-#playstationplus h1{
-    display: inline-block;
-}
-
 .plus-description{
     padding-top: 20px;
     padding-bottom: 7px;
 }
 
 .plus-logo{
-    height: 80px;
+    height: 70px;
     background-image: url(../img/ps-plus-logo.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -290,5 +292,41 @@ header nav i{
 }
 
 .descount-container img{
+    width: 100%;
+}
+
+/*PLAYSTATION NOW*/
+
+#playstationNow{
+    background-color: rgb(57, 0, 150);
+    margin-bottom: 80px;
+    color: white;
+}
+
+.psnow-description{
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+
+.psnow-logo{
+    height: 80px;
+    background-image: url(../img/ps-now-logo-two-column.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.psnow-april img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .psnow-april{
+        display: none;
+    }
+}
+
+/*SOCIAL MEDIA*/
+
+.socials, .socials img{
     width: 100%;
 }

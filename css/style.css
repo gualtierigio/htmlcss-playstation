@@ -282,3 +282,13 @@ header nav i{
         display: none;
     }
 }
+
+/*SCONTI SU PLAY STORE*/
+
+.descount-container{
+    width: 100%;
+}
+
+.descount-container img{
+    width: 100%;
+}

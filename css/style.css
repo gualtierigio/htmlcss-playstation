@@ -4,10 +4,6 @@ body{
 
 /*COMMON RULES*/
 
-[class^="col-"]{
-    border: 1px solid red;
-}
-
 .uppercase{
     text-transform: uppercase;
 }
@@ -333,6 +329,10 @@ header nav i{
 
 /*FOOTER*/
 
+footer a{
+    color: white;
+}
+
 #wrap-footer{
     background-color: blue;
     padding: 100px 10px;
@@ -357,7 +357,14 @@ header nav i{
 }
 
 .links-footer a{
-    color: white;
     text-decoration: none;
     display: block;
+}
+
+.sie-wrap{
+    width: 150px;
+}
+
+.sie-wrap img{
+    width: 100%;
 }

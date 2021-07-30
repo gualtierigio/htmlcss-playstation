@@ -336,6 +336,7 @@ header nav i{
 #wrap-footer{
     background-color: blue;
     padding: 100px 10px;
+    color: white;
 }
 
 .ps-footer-logo{
@@ -353,4 +354,10 @@ header nav i{
     display: inline-block;
     background-image: url(../img/language-globe.svg);
     margin-right: 5px;
+}
+
+.links-footer a{
+    color: white;
+    text-decoration: none;
+    display: block;
 }
